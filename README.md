@@ -1,6 +1,6 @@
 # Milo's Ryzentosh (Huawei Matebook 16 2020)
 
-[![MacOS version](https://img.shields.io/badge/Ventura-13.6.4-informational.svg)](https://www.apple.com/macos)
+[![MacOS version](https://img.shields.io/badge/Ventura-13.6.3-informational.svg)](https://www.apple.com/macos)
 [![OpenCore version](https://img.shields.io/badge/OpenCore-0.9.8-informational.svg)](https://github.com/acidanthera/OpenCorePkg)
 [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/milovanpms.svg?style=social&label=%20%40milovanpms)](https://twitter.com/milovanpms)
 
