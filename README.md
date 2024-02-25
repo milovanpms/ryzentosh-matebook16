@@ -4,11 +4,23 @@
 [![OpenCore version](https://img.shields.io/badge/OpenCore-0.9.8-informational.svg)](https://github.com/acidanthera/OpenCorePkg)\
 [![GitHub](https://img.shields.io/github/license/milovanpms/ryzentosh-matebook16?style=flat-square)](https://github.com/milovanpms/ryzentosh-matebook16/blob/master/LICENSE)
 
-<a href="https://postimg.cc/mcWSTcTC" target="_blank"><img src="https://i.postimg.cc/mcWSTcTC/Screenshot_2023-05-19_at_8.26.25_AM.png" alt="Screenshot_2023-05-19_at_8.26.25_AM"/></a> <a href="https://postimg.cc/VJPsThGw" target="_blank"><img src="https://i.postimg.cc/VJPsThGw/temp-Image26-C8-TR.jpg" alt="temp-Image26-C8-TR"/></a> <a href="https://postimg.cc/nMsHLxNZ" target="_blank"><img src="https://i.postimg.cc/nMsHLxNZ/temp-Image45-Yy-Gt.jpg" alt="temp-Image45-Yy-Gt"/></a> <a href="https://postimg.cc/hXFvqfjN" target="_blank"><img src="https://i.postimg.cc/hXFvqfjN/temp-Imagel-KRSx-Y.avif" alt="temp-Imagel-KRSx-Y"/></a>
+<a href="https://postimg.cc/mcWSTcTC" target="_blank">
+<img src="https://i.postimg.cc/mcWSTcTC/Screenshot_2023-05-19_at_8.26.25_AM.png" alt="Screenshot_2023-05-19_at_8.26.25_AM"/></a>
+
+<a href="https://postimg.cc/VJPsThGw" target="_blank">
+<img src="https://i.postimg.cc/VJPsThGw/temp-Image26-C8-TR.jpg" alt="temp-Image26-C8-TR"/></a>
+
+<a href="https://postimg.cc/nMsHLxNZ" target="_blank">
+<img src="https://i.postimg.cc/nMsHLxNZ/temp-Image45-Yy-Gt.jpg" alt="temp-Image45-Yy-Gt"/></a> 
+
+<a href="https://postimg.cc/hXFvqfjN" target="_blank">
+<img src="https://i.postimg.cc/hXFvqfjN/temp-Imagel-KRSx-Y.avif" alt="temp-Imagel-KRSx-Y"/></a>
 
 ## Disclaimer
 Please don't yell at me if your laptop starts to smell like burnt sausage. Don't forget to generate your personalised SMBIOS and setting it in your config.plist, otherwise it will not work.
 Also, the only component I changed is the WiFi/Bluetooth card, there was a non-compatible Realtek card in the laptop, I changed it for an Intel AX210NGW.
+And don't forget to change your AirportItlwm.kext file according to your macOS version, otherwise connectivity will not work!
+
 
 ## Specification
 
@@ -47,17 +59,22 @@ Also, the only component I changed is the WiFi/Bluetooth card, there was a non-c
 * [OpenCore](https://github.com/acidanthera/OpenCorePkg)
 * [RestrictEvents](https://github.com/acidanthera/RestrictEvents)
 * [VirtualSMC](https://github.com/acidanthera/VirtualSMC)
-* [NootedRed](https://github.com/acidanthera/WhateverGreen)
+* [NootedRed](https://github.com/ChefKissInc/NootedRed)
+* [VoodooI2C](https://github.com/VoodooI2C/VoodooI2C)
+* [VoodooPS2](https://github.com/acidanthera/VoodooPS2)
+* [AMDRyzenCPUPowerManagement](https://github.com/trulyspinach/SMCAMDProcessor)
+* [SMCAMDProcessor](https://github.com/trulyspinach/SMCAMDProcessor)
+* [AMDTscSync](https://github.com/naveenkrdy/AmdTscSync)
+* [SMCBatteryManager](https://github.com/acidanthera/VirtualSMC)
+* [ECEnabler](https://github.com/1Revenger1/ECEnabler)
+* [AirportItlwm](https://github.com/OpenIntelWireless/itlwm)
+* [NVMeFix](https://github.com/acidanthera/NVMeFix)
 
-## Bootloader
 
-I use OpenCore to multiboot Manjaro, Windows(10&11) and MacOS(Catalina, BigSur, Monterey & Ventura)
+## Credits
 
-[![04000725.png](https://i.postimg.cc/ZqdPpQj7/04000725.png)](https://postimg.cc/069JqcTD)
-
-## Credits and links
-
-* [OpenCore install guide](https://dortania.github.io/OpenCore-Install-Guide)
-* [Hackintool](https://www.hackintosh-forum.de/forum/thread/38316-hackintool-ehemals-intel-fb-patcher)
-* [OpenCore-Legacy-Patcher](https://github.com/dortania/OpenCore-Legacy-Patcher)
-* [OpenCore-Legacy-Patcher guide](https://dortania.github.io/OpenCore-Legacy-Patcher)
+* [Apple for macOS](https://apple.com)
+* [OpenCore](https://dortania.github.io/OpenCore-Install-Guide)
+* [Hackintool](https://github.com/benbaker76/Hackintool)
+* [AMD OS X Discord](https://discord.com/invite/EfCYAJW)
+* [@sileshn for the README.md](https://github.com/sileshn/Ryzentosh)
