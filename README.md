@@ -1,20 +1,12 @@
-# Milo's Ryzentosh (Matebook 16)
+# Milo's Ryzentosh (Huawei Matebook 16 2020)
 
-[![MacOS version](https://img.shields.io/badge/Ventura-13.6.4-informational.svg)](https://www.apple.com/macos) [![MacOS version](https://img.shields.io/badge/Sonoma-14.4%20beta4-informational.svg)](https://www.apple.com/macos) \
-[![OpenCore version](https://img.shields.io/badge/OpenCore-0.9.8-informational.svg)](https://github.com/acidanthera/OpenCorePkg)\
-[![GitHub](https://img.shields.io/github/license/milovanpms/ryzentosh-matebook16?style=flat-square)](https://github.com/milovanpms/ryzentosh-matebook16/blob/master/LICENSE)
+[![MacOS version](https://img.shields.io/badge/Ventura-13.6.4-informational.svg)](https://www.apple.com/macos)
+[![OpenCore version](https://img.shields.io/badge/OpenCore-0.9.8-informational.svg)](https://github.com/acidanthera/OpenCorePkg)
+[![Twitter](https://img.shields.io/twitter/url/https/twitter.com/milovanpms.svg?style=social&label=%20%40milovanpms)](https://twitter.com/milovanpms)
 
-<a href="https://postimg.cc/mcWSTcTC" target="_blank">
-<img src="https://i.postimg.cc/mcWSTcTC/Screenshot_2023-05-19_at_8.26.25_AM.png" alt="Screenshot_2023-05-19_at_8.26.25_AM"/></a>
+<p align="center"><a href="https://raw.githubusercontent.com/milovanpms/ryzentosh-matebook16/main/screenshot.png" target="_blank">
+<img src="https://raw.githubusercontent.com/milovanpms/ryzentosh-matebook16/main/screenshot.png" alt="baguette" width="800"/></a></p>
 
-<a href="https://postimg.cc/VJPsThGw" target="_blank">
-<img src="https://i.postimg.cc/VJPsThGw/temp-Image26-C8-TR.jpg" alt="temp-Image26-C8-TR"/></a>
-
-<a href="https://postimg.cc/nMsHLxNZ" target="_blank">
-<img src="https://i.postimg.cc/nMsHLxNZ/temp-Image45-Yy-Gt.jpg" alt="temp-Image45-Yy-Gt"/></a> 
-
-<a href="https://postimg.cc/hXFvqfjN" target="_blank">
-<img src="https://i.postimg.cc/hXFvqfjN/temp-Imagel-KRSx-Y.avif" alt="temp-Imagel-KRSx-Y"/></a>
 
 ## Disclaimer
 Please don't yell at me if your laptop starts to smell like burnt sausage. Don't forget to generate your personalised SMBIOS and setting it in your config.plist, otherwise it will not work.
