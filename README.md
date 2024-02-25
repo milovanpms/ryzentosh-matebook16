@@ -40,6 +40,7 @@ And don't forget to change your AirportItlwm.kext file according to your macOS v
 * AirDrop (because of Bluetooth)
 * Screen Mirroring
 * TouchID
+* Trackpad ("working" but unusable)
 
 
 ## Patches, Drivers & Kexts
